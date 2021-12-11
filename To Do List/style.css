@@ -1,0 +1,119 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  background-image: url("listbackground.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.header0{
+  text-size-adjust: 2px;
+  font-weight: bolder;
+  color: #f1c40f;
+  margin-left: 43%;
+  margin-top:10%;
+}
+.header1 {
+  text-size-adjust: 2px;
+  font-weight: bolder;
+  color: #f1c40f;
+  
+}
+
+.header2 {
+  text-size-adjust: 2px;
+  color: #f1c40f;
+  font-weight: bolder;
+}
+#div0{
+  align-items: center;
+  color: #f1c40f;
+  padding-left:39%
+  
+  
+  
+}
+
+#h1{
+  font-size: 50px;
+}
+#div1{
+  padding-top: 0%;
+  padding-right: 5%;
+  padding-left: 5%;
+  padding-bottom: 5%;
+  width: 30%;
+  height: 50%;
+  margin-top: -1%;
+  margin-left: 30%;
+  border-radius: 5%;
+  background-color: rgba(0,0,0,0.50);
+  border: thin solid #f1c40f;
+
+}
+
+#todo-list, #todo-add {
+  display: flex;
+  flex-wrap: wrap;
+  background: #8e44ad;
+  border: 1px solid #8e44ad;
+  border-radius: 6px;
+  padding: 10px;
+  max-width: 400px;
+}
+.item-row, .item-name, .item-del, .item-ok, #list-item, #list-add-btn {
+  box-sizing: border-box; 
+  border: 0;
+}
+
+.item-name, #list-item {
+  background: #9c59b600;
+  padding: 5px;
+  color: #ecf0f1;
+  font-weight: bold;
+}
+.item-del, .item-ok, #list-add-btn{
+  cursor: pointer;
+  color: #ecf0f1;
+
+  font-weight: bold;
+}
+
+
+.item-row {
+  display: flex;
+  width: 100%;
+  margin: 5px 0;
+}
+.item-name { width: 85%; }
+.item-name.item-got {
+  background: #ffce09;
+  color: #8e44ad;
+}
+.item-name.item-got:before {
+  content: "\02713";
+  margin-right: 5px;
+  font-weight: bolder;
+  color: #2ecc71;
+}
+
+.item-del, .item-ok { width: 15%; }
+.item-del { background: #ff0000; }
+.item-ok { background: #9b9090; }
+
+#list-item { 
+  width: 100%;
+  flex-wrap: wrap;
+  background: #8e44ad;
+  border: 1px solid #8e44ad;
+  border-radius: 6px;
+  padding: 10px;
+  max-width: 400px;
+}
+#list-add-btn {
+  width: 15%;
+  background: #ffce09;
+}
